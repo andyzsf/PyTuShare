@@ -8,5 +8,5 @@ def hello(request):
  
 
 def test_tushare(request):
-    datas=tushare.get_hist_data('002088',start='2015-07-03',end='2015-07-03')
+    datas=tushare.get_hist_data('000688',start='2015-07-03',end='2015-07-03')
     print datas
